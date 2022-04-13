@@ -1,0 +1,64 @@
+{
+  "teams":[
+    {
+        "id": 1,
+        "name": "レジャーズ",
+        "url_path": "leisures",
+        "regulation_at_bats": "0.5"
+    },
+    {
+        "id": 7,
+        "name": "横濱鳥",
+        "url_path": "yokohamabird",
+        "regulation_at_bats": "2.0"
+    },
+    {
+        "id": 8,
+        "name": "レッドタイガース",
+        "url_path": "redtigres",
+        "regulation_at_bats": "2.0"
+    },
+    {
+        "id": 9,
+        "name": "Win100PC",
+        "url_path": "windowspc",
+        "regulation_at_bats": "2.0"
+    },
+    {
+        "id": 10,
+        "name": "松本東",
+        "url_path": "east",
+        "regulation_at_bats": "0.0"
+    },
+    {
+        "id": 11,
+        "name": "k",
+        "url_path": "m",
+        "regulation_at_bats": "2.0"
+    },
+    {
+        "id": 12,
+        "name": "A.B.Cats",
+        "url_path": "abcats",
+        "regulation_at_bats": "2.0"
+    },
+    {
+        "id": 13,
+        "name": "spベアーズ",
+        "url_path": "spbears",
+        "regulation_at_bats": "2.0"
+    },
+    {
+        "id": 14,
+        "name": "spベアーズ",
+        "url_path": "sp_bears",
+        "regulation_at_bats": "2.0"
+    },
+    {
+        "id": 15,
+        "name": "bms_demo",
+        "url_path": "demo_team",
+        "regulation_at_bats": "2.0"
+    }
+]
+}
