@@ -1,9 +1,12 @@
 name: Generate db.json
 
+# see: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
 on:
   push:
     branches:
       - master
+    paths:
+      - '**.yaml'
 
 jobs:
   build:
