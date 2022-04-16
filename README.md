@@ -15,3 +15,10 @@
 > - Private GitHub repositories aren't supported (yet)
     
 see: https://my-json-server.typicode.com/
+
+
+> -    10KB db.json max
+> -    5 max REST endpoints
+> -    30 max items per endpoint
+
+see: https://my-json-server.typicode.com/pricing
