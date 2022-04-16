@@ -39,7 +39,7 @@ jobs:
           git config --global user.email yuokada@users.noreply.github.com
           git config --global user.name "Yukihiro Okada"
           git add db.json
-          git commit -m "Update db.json" db.json
+          git commit -m "[skip ci] Update db.json" db.json
       - name: Push db.json
         run: |
           git push origin HEAD
