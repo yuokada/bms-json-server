@@ -108,31 +108,31 @@
             "stadium": "天王洲"
         }
     ],
-    "new_teams": [
+    "players": [
         {
             "id": 1,
-            "name": "レジャーズ",
-            "url_path": "leisures",
-            "regulation_at_bats": "0.5",
-            "players": [
-                "Yamada",
-                "Iwaki",
-                "Satonaka",
-                "Tonoma",
-                "HOHOEMI"
-            ]
+            "name": "山田太郎",
+            "back_number": "02"
         },
         {
-            "id": 7,
-            "name": "横濱鳥",
-            "url_path": "yokohamabird",
-            "regulation_at_bats": "2.0"
+            "id": 2,
+            "name": "里中智",
+            "back_number": "01"
         },
         {
-            "id": 8,
-            "name": "レッドタイガース",
-            "url_path": "redtigres",
-            "regulation_at_bats": "2.0"
+            "id": 3,
+            "name": "岩鬼正美",
+            "back_number": "05"
+        },
+        {
+            "id": 4,
+            "name": "殿馬一人",
+            "back_number": "04"
+        },
+        {
+            "id": 5,
+            "name": "土井垣将",
+            "back_number": "02"
         }
     ]
 }
