@@ -107,5 +107,32 @@
             "bottom_status": 2,
             "stadium": "天王洲"
         }
+    ],
+    "new_teams": [
+        {
+            "id": 1,
+            "name": "レジャーズ",
+            "url_path": "leisures",
+            "regulation_at_bats": "0.5",
+            "players": [
+                "Yamada",
+                "Iwaki",
+                "Satonaka",
+                "Tonoma",
+                "HOHOEMI"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "横濱鳥",
+            "url_path": "yokohamabird",
+            "regulation_at_bats": "2.0"
+        },
+        {
+            "id": 8,
+            "name": "レッドタイガース",
+            "url_path": "redtigres",
+            "regulation_at_bats": "2.0"
+        }
     ]
 }
