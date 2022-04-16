@@ -1,0 +1,42 @@
+name: Generate db.json
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [
+          "3.9",
+        ]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install libkrb5-dev wget tree
+          pip3 install -r requirements.txt
+          wget -O jq -q https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64
+          chmod +x jq && mv jq /usr/local/bin
+      - name: Update db.json
+        run: |
+          ls -lhtr && tree
+          yq -h
+          yq -c "." db.yaml > db.json
+      - name: Commit db.json
+        run: |
+          git config --global user.email yuokada@users.noreply.github.com
+          git config --global user.name "Yukihiro Okada"
+          git add db.json
+          git commit -m "Update db.json" db.json
+      - name: Push db.json
+        run: |
+          git push origin HEAD
