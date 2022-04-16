@@ -6,4 +6,4 @@ WORKDIR /data
 VOLUME /data
 
 EXPOSE 8080
-ENTRYPOINT ["json-server", "-p", "8080", "--host", "0.0.0.0", "db.json"]
+ENTRYPOINT ["json-server", "-p", "8080", "--host", "0.0.0.0", "--watch", "db.json"]

@@ -7,7 +7,7 @@
 
 ```shell
 $ docker build -t json-server .
-$ docker run -t  -v `pwd`/db.json:/data/db.json -p 8080:8080 json-server
+$ docker run -t  -v `pwd`:/data -p 8080:8080 json-server
 
   \{^_^}/ hi!
 
@@ -50,3 +50,8 @@ see: https://my-json-server.typicode.com/
 > -    30 max items per endpoint
 
 see: https://my-json-server.typicode.com/pricing
+
+
+## Issues
+
+- [--watch is not reloading when host file changes · Issue #8 · clue/docker-json-server](https://github.com/clue/docker-json-server/issues/8)
