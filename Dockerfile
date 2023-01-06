@@ -1,4 +1,4 @@
-FROM node:17
+FROM node:18
 
 RUN npm install -g json-server@0.17.0
 
