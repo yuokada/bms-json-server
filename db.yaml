@@ -43,35 +43,35 @@ teams:
 games:
   - id: 1
     date: '2014-03-01'
-    start_time: 00:00:00
+    start_time: 18:00
     game_status: 2
     top_status: 1
     bottom_status: 1
     stadium: 天王洲
   - id: 3
     date: '2014-03-08'
-    start_time: 00:00:00
+    start_time: 15:00
     game_status: 2
     top_status: 2
     bottom_status: 2
     stadium: 六郷
   - id: 4
     date: '2014-03-15'
-    start_time: 00:00:00
+    start_time: 12:30
     game_status: 2
     top_status: 2
     bottom_status: 2
     stadium: ''
   - id: 5
     date: '2014-03-15'
-    start_time: 00:00:00
+    start_time: 11:45
     game_status: 2
     top_status: 0
     bottom_status: 0
     stadium: 品川のところ
   - id: 6
     date: '2014-04-05'
-    start_time: 00:00:00
+    start_time: 19:00
     game_status: 2
     top_status: 2
     bottom_status: 2
