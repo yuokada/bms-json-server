@@ -4,6 +4,7 @@
   "description": "- [My JSON Server - Fake online REST server for teams](https://my-json-server.typicode.com/) - [My JSON Server - yuokada/bms-json-server](https://my-json-server.typicode.com/yuokada/bms-json-server)",
   "main": "index.js",
   "scripts": {
+    "json-server": "json-server -p 8080 --host localhost db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
