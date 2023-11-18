@@ -19,5 +19,14 @@ updates:
       time: "07:00"
       timezone: "Asia/Tokyo"    
     reviewers:
+      - "yuokada"      
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day: "saturday"
+      time: "07:00"
+      timezone: "Asia/Tokyo"    
+    reviewers:
       - "yuokada"
       
