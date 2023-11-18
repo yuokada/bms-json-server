@@ -1,6 +1,6 @@
-FROM node:18
+FROM node:21
 
-RUN npm install -g json-server@0.17.0
+RUN npm install -g json-server@0.17.4
 
 WORKDIR /data
 VOLUME /data
