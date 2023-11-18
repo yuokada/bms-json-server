@@ -1,0 +1,15 @@
+{
+  "name": "bms-json-server",
+  "version": "1.0.0",
+  "description": "- [My JSON Server - Fake online REST server for teams](https://my-json-server.typicode.com/) - [My JSON Server - yuokada/bms-json-server](https://my-json-server.typicode.com/yuokada/bms-json-server)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
