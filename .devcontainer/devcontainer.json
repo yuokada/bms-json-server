@@ -1,6 +1,6 @@
 {
   "name": "bms-json-server-dev",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-24-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers/features/git:1": {},
@@ -8,9 +8,13 @@
   },
   "updateContentCommand": "npm ci || npm install",
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y jq python3-pip && pip3 install -r requirements.txt",
-  "forwardPorts": [8080],
+  "forwardPorts": [
+    8080
+  ],
   "portsAttributes": {
-    "8080": { "label": "json-server" }
+    "8080": {
+      "label": "json-server"
+    }
   },
   "customizations": {
     "vscode": {
@@ -21,4 +25,3 @@
     }
   }
 }
-
