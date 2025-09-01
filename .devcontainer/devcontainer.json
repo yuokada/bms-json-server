@@ -2,7 +2,7 @@
   "name": "bms-json-server-dev",
   // "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:3-22-bookworm",
   "features": {
     "ghcr.io/larsnieuwenhuizen/features/jqyq:0": {},
     "ghcr.io/devcontainers/features/common-utils:2": {},
