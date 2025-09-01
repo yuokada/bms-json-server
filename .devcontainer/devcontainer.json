@@ -1,13 +1,16 @@
 {
   "name": "bms-json-server-dev",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  // "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
   "features": {
+    "ghcr.io/larsnieuwenhuizen/features/jqyq:0": {},
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/docker-from-docker:1": {}
   },
   "updateContentCommand": "npm ci || npm install",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y jq python3-pip && pip3 install -r requirements.txt",
+  "postCreateCommand": "sudo apt-get update",
   "forwardPorts": [
     8080
   ],

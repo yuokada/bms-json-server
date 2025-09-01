@@ -8,25 +8,30 @@ updates:
       interval: "monthly"
       day: "saturday"
       time: "07:00"
-      timezone: "Asia/Tokyo"    
-    reviewers:
-      - "yuokada"
+      timezone: "Asia/Tokyo"
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "monthly"
       day: "saturday"
       time: "07:00"
-      timezone: "Asia/Tokyo"    
-    reviewers:
-      - "yuokada"      
+      timezone: "Asia/Tokyo"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "monthly"
       day: "saturday"
       time: "07:00"
-      timezone: "Asia/Tokyo"    
-    reviewers:
-      - "yuokada"
-      
+      timezone: "Asia/Tokyo"
+  # To get started with Dependabot version updates, you'll need to specify which
+  # package ecosystems to update and where the package manifests are located.
+  # Please see the documentation for more information:
+  # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+  # https://containers.dev/guide/dependabot
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: monthly
+      day: saturday
+      time: "07:00"
+      timezone: "Asia/Tokyo"
