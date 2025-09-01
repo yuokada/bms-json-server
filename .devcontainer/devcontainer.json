@@ -10,7 +10,7 @@
     "ghcr.io/devcontainers/features/docker-from-docker:1": {}
   },
   "updateContentCommand": "npm ci || npm install",
-  "postCreateCommand": "sudo apt-get update",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y jq python3-pip && pip3 install --break-system-packages -r requirements.txt",
   "forwardPorts": [
     8080
   ],
