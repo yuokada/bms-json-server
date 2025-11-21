@@ -6,4 +6,7 @@ WORKDIR /data
 VOLUME /data
 
 EXPOSE 8080
-ENTRYPOINT ["json-server", "-p", "8080", "--host", "0.0.0.0", "--watch", "db.json"]
+
+# Keep the executable as the ENTRYPOINT and put defaults in CMD so users can override/append args:
+ENTRYPOINT ["json-server"]
+CMD ["--watch", "db.json", "--port", "8080", "--host", "0.0.0.0"]
